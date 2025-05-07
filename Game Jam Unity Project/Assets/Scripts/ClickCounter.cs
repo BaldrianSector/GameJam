@@ -39,6 +39,12 @@ public class ClickCounter : MonoBehaviour
                         originalMaterial = rend.material;
                         rend.material = highlightMaterial;
                     }
+                    else
+                    {
+                        rend = currentHover.GetComponentInChildren<Renderer>();
+                        originalMaterial = rend.material;
+                        rend.material = highlightMaterial;
+                    }
                 }
 
                 if (Input.GetMouseButtonDown(0))
@@ -72,6 +78,14 @@ public class ClickCounter : MonoBehaviour
             if (rend != null && originalMaterial != null)
             {
                 rend.material = originalMaterial;
+            }
+            else
+            {
+                rend = currentHover.GetComponentInChildren<Renderer>();
+                if (rend != null && originalMaterial != null)
+                {
+                    rend.material = originalMaterial;
+                }
             }
             currentHover = null;
         }
