@@ -66,8 +66,8 @@ BoxCollider:
   m_ProvidesContacts: 0
   m_Enabled: 1
   serializedVersion: 3
-  m_Size: {x: 1.2, y: 1.2, z: 0.2}
-  m_Center: {x: 0, y: 0, z: 0}
+  m_Size: {x: 1.4308968, y: 1.4517109, z: 0.14759502}
+  m_Center: {x: 0.032072067, y: 0.009376287, z: -0.026202485}
 --- !u!1 &4511718352660351262
 GameObject:
   m_ObjectHideFlags: 0
@@ -81,7 +81,7 @@ GameObject:
   - component: {fileID: 1759408790570594217}
   m_Layer: 0
   m_Name: Visuals
-  m_TagString: Clickable
+  m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -94,13 +94,13 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 4511718352660351262}
   serializedVersion: 2
-  m_LocalRotation: {x: 0.6726305, y: -0.73964244, z: -0.014206886, w: 0.017192394}
-  m_LocalPosition: {x: 0.070674896, y: 0.0006696093, z: 0.6279838}
+  m_LocalRotation: {x: 0.70407164, y: -0.70977867, z: -0.014939053, w: 0.016560152}
+  m_LocalPosition: {x: 0.070674896, y: 0.00066974456, z: 0.6279838}
   m_LocalScale: {x: 0.72071004, y: 0.7017788, z: 0.73039746}
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 4951032874498848379}
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+  m_LocalEulerAnglesHint: {x: 0.121, y: -177.447, z: -89.535}
 --- !u!33 &5106727506204076768
 MeshFilter:
   m_ObjectHideFlags: 0
