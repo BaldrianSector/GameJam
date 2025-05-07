@@ -11,6 +11,7 @@ namespace StarterAssets
 		public Vector2 move;
 		public Vector2 look;
 		public bool jump;
+		public bool jumpTriggered;
 		public bool sprint;
 
 		[Header("Movement Settings")]
@@ -65,7 +66,7 @@ namespace StarterAssets
 		{
 			sprint = newSprintState;
 		}
-
+		
 		private void OnApplicationFocus(bool hasFocus)
 		{
 			SetCursorState(cursorLocked);

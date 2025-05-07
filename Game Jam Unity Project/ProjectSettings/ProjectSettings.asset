@@ -4,7 +4,7 @@
 PlayerSettings:
   m_ObjectHideFlags: 0
   serializedVersion: 28
-  productGUID: e8cc34191887f4965bfdbc706e8a8b09
+  productGUID: 793d77447da3843fbbe9549fe04de398
   AndroidProfiler: 0
   AndroidFilterTouchesWhenObscured: 0
   AndroidEnableSustainedPerformanceMode: 0
@@ -13,7 +13,7 @@ PlayerSettings:
   useOnDemandResources: 0
   accelerometerFrequency: 60
   companyName: DefaultCompany
-  productName: Game Jam Unity Project
+  productName: Marble Track
   defaultCursor: {fileID: 0}
   cursorHotspot: {x: 0, y: 0}
   m_SplashScreenBackgroundColor: {r: 0.13725491, g: 0.12156863, b: 0.1254902, a: 1}
@@ -854,14 +854,14 @@ PlayerSettings:
   editorAssembliesCompatibilityLevel: 1
   m_RenderingPath: 1
   m_MobileRenderingPath: 1
-  metroPackageName: Game Jam Unity Project
+  metroPackageName: Marble Track
   metroPackageVersion: 
   metroCertificatePath: 
   metroCertificatePassword: 
   metroCertificateSubject: 
   metroCertificateIssuer: 
   metroCertificateNotAfter: 0000000000000000
-  metroApplicationDescription: Game Jam Unity Project
+  metroApplicationDescription: Marble Track
   wsaImages: {}
   metroTileShortName: 
   metroTileShowName: 0
@@ -932,10 +932,10 @@ PlayerSettings:
   captureStartupLogs: {}
   activeInputHandler: 2
   windowsGamepadBackendHint: 0
-  cloudProjectId: 20819604-f77e-4ac3-8b1b-f017e5b8b40a
+  cloudProjectId: dd603d50-9886-4595-a306-f3b42e178f3b
   framebufferDepthMemorylessMode: 0
   qualitySettingsNames: []
-  projectName: Game Jam Unity Project
+  projectName: Marble Track
   organizationId: baldriansector
   cloudEnabled: 0
   legacyClampBlendShapeWeights: 0

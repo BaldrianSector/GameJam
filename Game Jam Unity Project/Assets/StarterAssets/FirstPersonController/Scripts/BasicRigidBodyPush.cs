@@ -23,9 +23,6 @@ public class BasicRigidBodyPush : MonoBehaviour
 		var bodyLayerMask = 1 << body.gameObject.layer;
 		if ((bodyLayerMask & pushLayers.value) == 0) return;
 
-		// We dont want to push objects below us
-		if (hit.moveDirection.y < -0.3f) return;
-
 		// Calculate push direction from move direction, horizontal motion only
 		Vector3 pushDir = new Vector3(hit.moveDirection.x, 0.0f, hit.moveDirection.z);
 
