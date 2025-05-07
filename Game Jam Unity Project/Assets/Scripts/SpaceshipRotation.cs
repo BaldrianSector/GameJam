@@ -1,26 +1,17 @@
 using UnityEngine;
 
-public class SpaceshipRotation : MonoBehaviour
+public class SlowRotate : MonoBehaviour
 {
-    public float rotationSpeed = 100f; // Speed of rotation in degrees per second
-    public GameObject target;
+    public float rotationSpeedX = 0f;
+    public float rotationSpeedY = 0f;
+    public float rotationSpeedZ = -0.6f;
 
-
-    // Start is called once before the first execution of Update after the MonoBehaviour is created
-    void Start()
-    {
-        
-    }
-
-    // Update is called once per frame
     void Update()
     {
-        // Rotate the spaceship towards slowly around local X axis
-        float horizontalInput = Input.GetAxis("Horizontal");
-        float verticalInput = Input.GetAxis("Vertical");
-        float rotationX = horizontalInput * rotationSpeed * Time.deltaTime;
-        float rotationY = verticalInput * rotationSpeed * Time.deltaTime;
-        transform.Rotate(rotationX, rotationY, 0);
-        
+        float rotX = rotationSpeedX * Time.deltaTime;
+        float rotY = rotationSpeedY * Time.deltaTime;
+        float rotZ = rotationSpeedZ * Time.deltaTime;
+
+        transform.Rotate(rotX, rotY, rotZ);
     }
 }
