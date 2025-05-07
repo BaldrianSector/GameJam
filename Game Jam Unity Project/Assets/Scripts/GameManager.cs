@@ -52,7 +52,7 @@ public class GameManager : MonoBehaviour
         if (timer < 0f) timer = 0f;
 
         string format = "F" + decimalPlaces;
-        timerText.text = "Time: " + timer.ToString(format);
+        timerText.text = "Time left: " + timer.ToString(format);
 
         if (timer <= 0f)
         {
@@ -77,7 +77,7 @@ public class GameManager : MonoBehaviour
 
     void UpdateUI()
     {
-        countText.text = "Score: " + score + "/" + maxScore;
+        countText.text = "SYSTEMS ERROR: " + score + "/" + maxScore;
     }
 
     void EndGame(bool won)
