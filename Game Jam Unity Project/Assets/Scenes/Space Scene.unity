@@ -243,7 +243,7 @@ GameObject:
   - component: {fileID: 300085500}
   m_Layer: 0
   m_Name: steam_4
-  m_TagString: Untagged
+  m_TagString: Steam
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -5426,7 +5426,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 950775252606343094, guid: 035bf1ba97d19214580cfe6f5a29fdc3, type: 3}
       propertyPath: m_RenderPostProcessing
-      value: 1
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 2862278905927072854, guid: 035bf1ba97d19214580cfe6f5a29fdc3, type: 3}
       propertyPath: m_Lens.FieldOfView
@@ -5472,6 +5472,10 @@ PrefabInstance:
       propertyPath: m_CollisionDetection
       value: 1
       objectReference: {fileID: 0}
+    - target: {fileID: 5114589463514082144, guid: 035bf1ba97d19214580cfe6f5a29fdc3, type: 3}
+      propertyPath: m_Enabled
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 5126527961139664760, guid: 035bf1ba97d19214580cfe6f5a29fdc3, type: 3}
       propertyPath: m_LocalPosition.x
       value: -65.37
@@ -5499,6 +5503,10 @@ PrefabInstance:
     - target: {fileID: 5126527961139664760, guid: 035bf1ba97d19214580cfe6f5a29fdc3, type: 3}
       propertyPath: m_LocalRotation.z
       value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5126527961139664767, guid: 035bf1ba97d19214580cfe6f5a29fdc3, type: 3}
+      propertyPath: m_Enabled
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 5126527961139664767, guid: 035bf1ba97d19214580cfe6f5a29fdc3, type: 3}
       propertyPath: field of view
@@ -6174,10 +6182,10 @@ Transform:
   m_LocalScale: {x: 0.010000002, y: 0.0049835, z: 0.0047847}
   m_ConstrainProportionsScale: 0
   m_Children:
+  - {fileID: 641086895}
   - {fileID: 300085499}
   - {fileID: 1328434908}
   - {fileID: 1240178598}
-  - {fileID: 641086895}
   m_Father: {fileID: 519725552}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!65 &840309671
@@ -6439,8 +6447,8 @@ Transform:
   m_LocalScale: {x: 0.01, y: 0.0049834987, z: 0.0047847005}
   m_ConstrainProportionsScale: 0
   m_Children:
-  - {fileID: 1981336540}
   - {fileID: 1563850639}
+  - {fileID: 1981336540}
   m_Father: {fileID: 519725552}
   m_LocalEulerAnglesHint: {x: 0, y: -90, z: 0}
 --- !u!65 &1082872558
@@ -6611,7 +6619,7 @@ GameObject:
   - component: {fileID: 1240178599}
   m_Layer: 0
   m_Name: steam_4
-  m_TagString: Untagged
+  m_TagString: Steam
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -11463,8 +11471,8 @@ Transform:
   m_LocalScale: {x: 0.010000002, y: 0.0049835, z: 0.0047847}
   m_ConstrainProportionsScale: 0
   m_Children:
-  - {fileID: 1315860260}
   - {fileID: 1039753478}
+  - {fileID: 1315860260}
   m_Father: {fileID: 519725552}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!65 &1277660794
@@ -11554,7 +11562,7 @@ GameObject:
   - component: {fileID: 1315860261}
   m_Layer: 0
   m_Name: Steam_2
-  m_TagString: Untagged
+  m_TagString: Steam
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -16387,7 +16395,7 @@ GameObject:
   - component: {fileID: 1328434909}
   m_Layer: 0
   m_Name: steam_4
-  m_TagString: Untagged
+  m_TagString: Steam
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -21265,7 +21273,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   rotationSpeedX: 0
   rotationSpeedY: 0
-  rotationSpeedZ: 2
+  rotationSpeedZ: 0
 --- !u!4 &1342591625 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: -4216859302048453862, guid: b566ce7283e47f741b0fa467b5b72884, type: 3}
@@ -21812,7 +21820,7 @@ MonoBehaviour:
   timerText: {fileID: 713808699}
   winText: {fileID: 977932778}
   loseText: {fileID: 1884783684}
-  timeLimit: 30
+  timeLimit: 180
   decimalPlaces: 1
 --- !u!4 &1924105981
 Transform:
@@ -21847,7 +21855,7 @@ GameObject:
   - component: {fileID: 1981336541}
   m_Layer: 0
   m_Name: Steam_3
-  m_TagString: Untagged
+  m_TagString: Steam
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -26889,6 +26897,10 @@ PrefabInstance:
     - target: {fileID: 7872408245920991559, guid: 8bb8e0b4e5d514b1d91e43a7ff3c84e7, type: 3}
       propertyPath: m_LocalPosition.z
       value: 0.146
+      objectReference: {fileID: 0}
+    - target: {fileID: 8969663282179969229, guid: 8bb8e0b4e5d514b1d91e43a7ff3c84e7, type: 3}
+      propertyPath: m_TagString
+      value: Steam
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects:

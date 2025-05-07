@@ -6,6 +6,7 @@ TagManager:
   tags:
   - CinemachineTarget
   - Clickable
+  - Steam
   layers:
   - Default
   - TransparentFX
